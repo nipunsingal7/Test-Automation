@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="project">
+<test name="Linkedin Forgot Password testing">
+<classes>
+<class name="Project.ForgotPassword" />
+</classes>
+</test>
+
+<test name="Linkedin Signup testing">
+<classes>
+<class name="Project.Signup" />
+</classes>
+</test>
+
+
+<test name="Linkedin Login-Search testing">
+<classes>
+<class name="Project.LoginSearch" />
+</classes>
+</test>  
+
+
+
+</suite>
